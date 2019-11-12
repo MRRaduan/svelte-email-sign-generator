@@ -45,7 +45,7 @@
         bind:value={$fullname} />
     </div>
     <div class="form-group">
-      <label for="cargo" class="input-title">Cargo</label>
+      <label for="cargo" class="input-title">Time ou área de atuação</label>
       <input type="text" name="cargo" class="input-field" bind:value={$cargo} />
     </div>
     <div class="form-group">
