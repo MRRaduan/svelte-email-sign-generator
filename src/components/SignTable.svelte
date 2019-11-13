@@ -109,10 +109,11 @@
                     text-decoration: none; display: inline-block; position:
                     relative !important; border: none; line-height:1; ">
                     <img
-                      src="https://www.movile.com/assinaturaemail/telefone-mpay.png"
+                      src="celular.png"
                       alt=""
                       style="text-decoration: none !important; ; display:
-                      inline-block;" />
+                      inline-block; width:22px; min-width: 22px; max-width:
+                      22px; height: 22px; min-height: 22px; max-height: 22px;" />
                     <span
                       style="text-decoration: none !important; margin: 0;
                       padding: 0; border: 0; display: inline-block; margin-top:
@@ -139,10 +140,11 @@
                     text-decoration: none; display: inline-block; position:
                     relative !important; border: none; line-height:1;">
                     <img
-                      src="https://www.movile.com/assinaturaemail/linkedin-mpay.png"
+                      src="linkedin.png"
                       alt="LinkedIn MovilePay"
                       style="text-decoration: none !important; ; display:
-                      inline-block;" />
+                      inline-block; width:22px; min-width: 22px; max-width:
+                      22px; height: 22px; min-height: 2wpx; max-height: 22px;" />
                     <span
                       style="text-decoration: none !important; ; margin: 0;
                       padding: 0; border: 0; display: inline-block; margin-top:
