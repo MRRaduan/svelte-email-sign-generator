@@ -41,7 +41,7 @@
   .sign-card {
     background-color: #fff;
     width: 100%;
-    max-width: 280px;
+    max-width: 380px;
     padding: 30px 40px;
     border-radius: 5px;
     margin: 20px auto 0 auto;

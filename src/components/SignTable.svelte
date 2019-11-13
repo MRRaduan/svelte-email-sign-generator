@@ -52,18 +52,18 @@
             style="text-decoration: none !important; ; border: 0; margin:0;
             padding: 0; vertical-align: baseline;">
             <img
-              src="https://www.movile.com/assinaturaemail/mpay-logo.png"
+              src="movilepay-logo.png"
               alt="Logo da MovilePay"
               style="text-decoration: none !important; ; display: block; margin:
-              0; padding: 0; min-width: 114px; width: 114px; max-width: 114px;
-              min-heigh:96px; height: 96px; max-height: 96px; border: 0;" />
+              0; padding: 0; min-width: 176px; width: 176px; max-width: 176px;
+              min-heigh:110px; height: 110px; max-height: 110px; border: 0;" />
           </td>
           <td
             style="text-decoration: none !important; ; border: 0; margin:0;
             padding: 0; vertical-align: middle;">
             <table
               style="text-decoration: none !important; ; border-collapse:
-              collapse; border-spacing: 0; margin-left: 10px;">
+              collapse; border-spacing: 0; margin-left: 26px;">
               <tr>
                 <td
                   style="text-decoration: none !important; ; border: 0;
@@ -71,8 +71,8 @@
                   <p
                     style="text-decoration: none !important; ; margin: 0;
                     padding: 0; font-family: montserrat, Tahoma, Trebuchet MS,
-                    Verdana, sans-serif; font-size: 14px; font-weight: bold;
-                    color: #ef384e; display: block; border:0;">
+                    Verdana, sans-serif; font-size: 16px; font-weight: bold;
+                    color: #ef384e; display: block; border:0; line-height: 1;">
                     {#if $fullname === ''}
                       <div class="skeleton -name" />
                     {:else}{$fullname}{/if}
@@ -85,10 +85,11 @@
                   margin:0; padding: 0; vertical-align: baseline;">
                   <p
                     style="text-decoration: none !important; ; margin: 0;
-                    padding: 0; left: 0; text-align: left; font-family:
-                    montserrat, Tahoma, Trebuchet MS, Verdana, sans-serif;
-                    font-size: 11px; color: #8c8c8c; text-decoration: none;
-                    display: inline-block; border:0; ">
+                    margin-top:4px; padding: 0; left: 0; text-align: left;
+                    font-family: montserrat, Tahoma, Trebuchet MS, Verdana,
+                    sans-serif; font-size: 12px; color: #8c8c8c;
+                    text-decoration: none; display: inline-block; border:0;
+                    line-height:1; ">
                     {#if $cargo === ''}
                       <div class="skeleton -cargo" />
                     {:else}{$cargo}{/if}
@@ -101,11 +102,12 @@
                   margin:0; padding: 0; vertical-align: baseline;">
                   <a
                     href="tel: {$tel}"
-                    style="text-decoration: none !important; ; margin: 0; left:
-                    0; padding: 0; text-align:left; font-family: montserrat,
-                    Tahoma, Trebuchet MS, Verdana, sans-serif; font-size: 11px;
-                    color: #8c8c8c; text-decoration: none; display:
-                    inline-block; position: relative !important; border: none; ">
+                    style="text-decoration: none !important; ; margin: 0;
+                    margin-top: 9px; left: 0; padding: 0; text-align:left;
+                    font-family: montserrat, Tahoma, Trebuchet MS, Verdana,
+                    sans-serif; font-size: 12px; color: #8c8c8c;
+                    text-decoration: none; display: inline-block; position:
+                    relative !important; border: none; line-height:1; ">
                     <img
                       src="https://www.movile.com/assinaturaemail/telefone-mpay.png"
                       alt=""
@@ -114,7 +116,8 @@
                     <span
                       style="text-decoration: none !important; margin: 0;
                       padding: 0; border: 0; display: inline-block; margin-top:
-                      6px !important; vertical-align: top;">
+                      6px !important; margin-left: 6px; vertical-align: top;
+                      line-height:1;">
                       {#if $tel === ''}
                         <div class="skeleton -tel" />
                       {:else}{$tel}{/if}
@@ -129,11 +132,12 @@
                   <a
                     href="https://www.linkedin.com/company/movilepay/"
                     target="_blank"
-                    style="text-decoration: none !important; ; margin: 0; left:
-                    0; padding: 0; text-align:left; font-family: montserrat,
-                    Tahoma, Trebuchet MS, Verdana, sans-serif; font-size: 11px;
-                    color: #8c8c8c; text-decoration: none; display:
-                    inline-block; position: relative !important; border: none; ">
+                    style="text-decoration: none !important; margin: 0;
+                    margin-top: 2px;left: 0; padding: 0; text-align:left;
+                    font-family: montserrat, Tahoma, Trebuchet MS, Verdana,
+                    sans-serif; font-size: 12px; color: #8c8c8c;
+                    text-decoration: none; display: inline-block; position:
+                    relative !important; border: none; line-height:1;">
                     <img
                       src="https://www.movile.com/assinaturaemail/linkedin-mpay.png"
                       alt="LinkedIn MovilePay"
@@ -142,7 +146,8 @@
                     <span
                       style="text-decoration: none !important; ; margin: 0;
                       padding: 0; border: 0; display: inline-block; margin-top:
-                      9px !important; vertical-align: top;">
+                      9px !important; margin-left: 6px; vertical-align: top;
+                      line-height:1;">
                       /company/movilepay
                     </span>
                   </a>
