@@ -1,5 +1,5 @@
 <script>
-  import { fullname, cargo, tel } from "../stores.js";
+  import { area, fullname, cargo } from "../stores.js";
 </script>
 
 <style>
@@ -45,12 +45,12 @@
         bind:value={$fullname} />
     </div>
     <div class="form-group">
-      <label for="cargo" class="input-title">Time ou área de atuação</label>
+      <label for="cargo" class="input-title">Função</label>
       <input type="text" name="cargo" class="input-field" bind:value={$cargo} />
     </div>
     <div class="form-group">
-      <label for="tel" class="input-title">Telefone</label>
-      <input type="text" name="tel" class="input-field" bind:value={$tel} />
+      <label for="cargo" class="input-title">Time ou área de atuação</label>
+      <input type="text" name="cargo" class="input-field" bind:value={$area} />
     </div>
   </form>
 

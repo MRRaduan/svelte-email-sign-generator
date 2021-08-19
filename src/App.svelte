@@ -1,5 +1,5 @@
 <script>
-  import { tel, fullname, cargo } from "./stores.js";
+  import { area, fullname, cargo } from "./stores.js";
   import { fly, fade } from "svelte/transition";
   import PageTitle from "./components/PageTitle.svelte";
   import SignForm from "./components/SignForm.svelte";
@@ -41,7 +41,7 @@
   .sign-card {
     background-color: #fff;
     width: 100%;
-    max-width: 380px;
+    max-width: 410px;
     padding: 30px 40px;
     border-radius: 5px;
     margin: 20px auto 0 auto;
@@ -89,7 +89,7 @@
     <div class="sign-card" bind:this={signTable}>
       <SignTable />
     </div>
-    {#if $tel !== '' && $fullname !== '' && $cargo !== ''}
+    {#if $fullname !== '' && $cargo !== '' && $area !== ''}
       <button
         class="btn-primary"
         in:fly={{ x: -50, duration: 320 }}
