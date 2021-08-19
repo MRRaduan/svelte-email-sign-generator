@@ -73,13 +73,13 @@
                   margin:0; padding: 0; vertical-align: baseline;"
                 >
                   <a
-                    href="https://www.instagram.com/movile.pay/"
+                    href="https://www.linkedin.com/company/movilepay"
                     target="_blank"
                     style="text-decoration: none !important; margin: 0;
                     margin-top: 9px; left: 0; padding: 0; text-align:left;
                     font-family: montserrat, Tahoma, Trebuchet MS, Verdana,
                     sans-serif; font-size: 12px; color: #8c8c8c;
-                    text-decoration: none; display: inline-block; position:
+                     display: inline-block; position:
                     relative !important; border: none; line-height:1; "
                   >
                     <img
@@ -91,13 +91,13 @@
                     />
                   </a>
                   <a
-                    href="https://www.linkedin.com/company/movilepay"
+                    href="https://www.instagram.com/movile.pay/"
                     target="_blank"
                     style="text-decoration: none !important; ; margin: 0;
                     margin-top: 9px; left: 0; padding: 0; text-align:left;
                     font-family: montserrat, Tahoma, Trebuchet MS, Verdana,
                     sans-serif; font-size: 12px; color: #8c8c8c;
-                    text-decoration: none; display: inline-block; position:
+                     display: inline-block; position:
                     relative !important; border: none; line-height:1; "
                   >
                     <img
