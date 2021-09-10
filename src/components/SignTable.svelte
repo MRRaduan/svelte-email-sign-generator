@@ -1,5 +1,5 @@
 <script>
-  import { area, fullname, cargo } from "../stores.js";
+  import { area, fullname, cargo, phone } from "../stores.js";
 </script>
 
 <table>
@@ -107,6 +107,27 @@
                       inline-block; width:28px; min-width: 28px; max-width:
                       28px; height: 28px; min-height: 28px; max-height: 28px;"
                     />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  style="text-decoration: none !important; ; border: 0;
+                  margin:0; padding: 0; vertical-align: baseline;"
+                >
+                  <a
+                    href="https://boards.greenhouse.io/movilepay"
+                    target="_blank"
+                    style="text-decoration: none !important; ; margin: 0;
+                    margin-top: 5px; left: 0; padding: 0; text-align:left;
+                    font-family: montserrat, Tahoma, Trebuchet MS, Verdana,
+                    sans-serif; font-size: 16px; color: #E4232F;
+                    text-decoration: none; display: inline-block; position:
+                    relative !important; border: none; line-height:1; font-weight:300; "
+                  >
+                    {#if $phone === ""}
+                      <div class="skeleton -cargo" />
+                    {:else}{$phone}{/if}
                   </a>
                 </td>
               </tr>
